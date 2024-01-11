@@ -12,7 +12,7 @@ function competePC(n){
     let score_player = (Number)(score1.innerHTML);
     let score_pc = (Number)(score2.innerHTML);
     if(score_player>=5 || score_pc>=5){
-        alert(score_player>score_pc?"Player 1 wins. ":"PC wins. "+'Game Over!')
+        alert((score_player>score_pc?"Player 1 wins. ":"PC wins. ")+'Game Over!')
         location.reload();
 
         // return;
